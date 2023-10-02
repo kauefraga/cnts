@@ -30,7 +30,11 @@ async function main() {
     console.error(
       c.red('You may already have a project with this name. Try another.'),
     );
+    process.exit(1);
   }
+
+  console.log(c.green('Done!'));
+  console.log(`Dive into ./${name}`)
 }
 
 try {
