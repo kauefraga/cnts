@@ -1,0 +1,34 @@
+{
+  "name": "create-node-typescript-server",
+  "version": "1.0.0",
+  "description": "🧞‍♂️ Wanna create a node typescript server?",
+  "repository": "https://github.com/kauefraga/cnts",
+  "main": "src/bin.js",
+  "bin": {
+    "@kauefraga/create-node-typescript-server": "src/bin.js",
+    "create-node-typescript-server": "src/bin.js",
+    "cnts": "src/bin.js"
+  },
+  "scripts": {
+    "dev": "nodemon src/bin.js",
+    "start": "node ."
+  },
+  "keywords": [
+    "cli",
+    "boilerplate",
+    "create-project",
+    "typescript",
+    "nodejs",
+    "server",
+    "koajs"
+  ],
+  "author": "Kauê Fraga Rodrigues <kauefragarodrigues456@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "simple-git": "^3.20.0"
+  }
+}
