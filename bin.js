@@ -1,7 +1,6 @@
 const prompts = require('prompts');
 const simpleGit = require('simple-git');
 const c = require('ansi-colors');
-const cliBoxes = require('cli-boxes');
 
 async function main() {
   console.log(c.blue('╭─────────────────────────────────╮'));
